@@ -31,4 +31,4 @@ Guide to browse the project <br>
 >The Folder `src` contain all the source codes of the website. <br>
 >The imported framework & library are in the `node_modules` folder. <br>
 >The styles and scripts are directly CDN linked(for faster loading),therefore, some some scripts and styles aren't available in the <br>
-source folder
+source folder.
