@@ -4,8 +4,10 @@
 
 This is a Portfolio website with cool animations, designs with responsive design(Can be accessed on all type of screens). <br>
 -This Portfolio featured one for programmer.(Personal Portfolio website of a Developer.) <br>
--Bootstrap CSS Framework is used in this project. -Animate CSS Library also used here <br>
--Ionicons by Ionic is used for icons in the project -made by Thamizhventhan Kannadas <br>
+-Bootstrap CSS Framework is used in this project. <br>
+-Animate CSS Library also used here <br>
+-Ionicons by Ionic is used for icons in the project <br>
+-made by Thamizhventhan Kannadas <br>
 
 ## Website is Live : [https://thisisthamizh.github.io/personal-portfolio/](https://thisisthamizh.github.io/personal-portfolio/)
 
