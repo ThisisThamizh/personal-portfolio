@@ -1,4 +1,4 @@
-.wrapper{
+body{
     background: url(../images/simple-shiny.svg) 
     no-repeat center center fixed;
     background-size: cover;
@@ -104,4 +104,8 @@ ion-icon{
     width: 20px;
     height: 20px;
     filter: brightness(0) invert(1);
+}
+
+.show{
+    display: block;
 }

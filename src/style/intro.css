@@ -8,7 +8,7 @@
     position: fixed;
     background-color: #091A2B;
     animation: intro 3.5s cubic-bezier(1, 0, 0,-0.01);
-    opacity: 1;
+    opacity: 0;
     z-index: -99;
 }
 
