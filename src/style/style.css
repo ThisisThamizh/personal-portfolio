@@ -1,0 +1,107 @@
+.wrapper{
+    background: url(../images/simple-shiny.svg) 
+    no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.nav-color{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.nav-stuff:hover{
+    color: #f1c40f;
+    text-decoration: underline 1px solid;
+}
+
+.link-img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+    transition: .5s;
+}
+
+.link-img:hover{ 
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%); 
+    transform: scale(1.1);
+}
+
+.link-img:active{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: scale(1);
+}
+
+.img-box{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    width: 110px; height: 110px;
+    border-radius: 10px;
+    background: #00000000;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+ion-icon{
+    width: 100px; 
+    height: 100px;
+    color: rgba(0, 0, 0, 0.914);
+}
+
+.img-load{
+    transition: .5s;
+}
+
+.img-load p{
+    opacity: 0;
+    transition: .5s;
+}
+.img-load:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.img-load:active{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.img-load:hover p{
+    opacity: 1;
+}
+
+.img-load:active p{
+    opacity: 1;
+}
+
+.img-box img{
+    width: 100px; 
+    height: 100px;
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #595959;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(89, 89, 89, 0);
+}
+
+.small{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
